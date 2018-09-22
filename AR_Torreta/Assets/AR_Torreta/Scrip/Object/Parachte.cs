@@ -45,4 +45,12 @@ public class Parachte : MonoBehaviour {
         transform.position -= (transform.up * speed*Time.deltaTime );
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.transform.tag == "Bala")
+        {
+            Destroy(this.gameObject);
+        }
+    }
+
 }

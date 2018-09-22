@@ -38,6 +38,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4570065715265620}
   - component: {fileID: 114453032253526594}
+  - component: {fileID: 65842524736767666}
   m_Layer: 0
   m_Name: fistaid_box_parachute
   m_TagString: Untagged
@@ -82,7 +83,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1052709126373468}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -42.753056, y: 85.49318, z: -112.586}
+  m_LocalPosition: {x: -0.3, y: 0, z: 47.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4282940618469928}
@@ -199,6 +200,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 0.4458525, z: 1.7462816}
   m_Center: {x: 0, y: 0, z: 0.52738464}
+--- !u!65 &65842524736767666
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1052709126373468}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.989917, y: 10.554409, z: 4.698826}
+  m_Center: {x: -0.0053772926, y: -3.1680393, z: 0.03909874}
 --- !u!114 &114453032253526594
 MonoBehaviour:
   m_ObjectHideFlags: 1

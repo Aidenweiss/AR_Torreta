@@ -34,4 +34,6 @@ public class Inicializador : MonoBehaviour {
         Asignar_posicion.z = Random.Range(-200f,200f);
         return Asignar_posicion;
     }
+
+
 }
