@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Inicializador : MonoBehaviour {
+    
     public int cant;
     public GameObject navi_01;
 	// Use this for initialization
