@@ -17,7 +17,6 @@ public class Pausa : MonoBehaviour
 
     public void PlayGame()
     {
-        SceneManager.LoadScene("SampleScene");
     }
 
     public void Men()
