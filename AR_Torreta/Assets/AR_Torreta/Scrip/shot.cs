@@ -9,7 +9,6 @@ public class shot : MonoBehaviour {
     GameObject LaserClone;
     public float force;
 	// Use this for initialization
-	void Start () {
         force = 50f;
         adSrc = GetComponent<AudioSource>();
     }
@@ -17,10 +16,7 @@ public class shot : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-        if (Input.GetMouseButtonDown(0))
         {
-            Shotsound();
-            disparaLaser();
         }
     }
 
